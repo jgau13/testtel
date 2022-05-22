@@ -3,11 +3,9 @@ loading...
 	setTimeout(()=>{		
 		document.getElementById('test-link').click();
 		retry()
-	}, 5000);
-	function retry(){		
-		setTimeout(()=>{		
-			document.getElementById('test-link').click();
-		}, 5000);
-	}
+	}, 5000);	
+	setTimeout(()=>{		
+		document.getElementById('test-link').click();
+	}, 10000);
 </script>
 <a id="test-link" href="tel:+573142644451"><h1>PRUEBA</h1><a>
